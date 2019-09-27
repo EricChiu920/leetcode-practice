@@ -1,7 +1,7 @@
 from collections import deque
 
 class Solution:
-  def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
+  def canVisitAllRooms(self, rooms) -> bool:
     table = [False] * len(rooms)
     table[0] = True
     counter = 1
